@@ -97,3 +97,51 @@ Option "Inventory": You can see all the possible ingredients and their descripti
 #### Ending screen
 
 ## TODOs
+### Programming
+#### Kinetic novel
+- [] List functionalities
+
+#### Crafting
+- [] List functionalities
+
+#### Options
+- [] List functionalities
+
+### Visual assets
+Assets should be in WebP format. This can help convert them to the right format: https://blog.argentgames.co/post/2019-04-08-renpy-image-optimization-imagemagick/
+#### Characters
+- [] Sketch characters
+  - [] The witch
+  - [] The transphobic parent
+  - [] The friend
+  - [] The shy one
+- [] List assets and requirements
+
+#### Backgrounds
+- [] Sketch backgrounds
+  - [] The shop
+  - [] The potion lab
+- [] List assets and requirements
+
+#### UI elements
+- [] List assets and requirements
+  - [] Neutral background for menu and potion screen UI (1280*720)
+  - [] Dialogue box
+
+### Sound assets
+- [] List assets and requirements
+
+### Design and writing
+- [] Design crafting ingredients and results
+- [] Flesh out characters
+  - [] The witch
+  - [] The transphobic parent
+  - [] The friend
+  - [] The shy one
+- [] Write scenes
+  - [] Intro (1)
+  - [] First monologue (2)
+  - [] Friendly argument (4)
+  - [] Enthusiastic friend (6)
+  - [] Shy costumer (7)
+  - [] Epilogue (9)
