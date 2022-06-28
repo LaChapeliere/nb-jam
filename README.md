@@ -80,7 +80,7 @@ Other info: Likes bow-ties.
 
 #### Novel screen
 Sketches:
-![2 possible configurations for the kinetic novel screen](sketches/novel_screens.pdf)
+![2 possible configurations for the kinetic novel screen](sketches/novel_screens.png)
 
 Option "Classic": The text is displayed in the box at the bottom of the screen, in a classic visual novel configuration.
 Option "Bubbles": The text is displayed in speech bubbles next to the corresponding character, like in comics.
@@ -89,7 +89,7 @@ If we want the witch to be animated, we need to layer background + witch + count
 
 #### Potion screen
 Sketches:
-![2 possible configurations for the potion crafting minigame screen](sketches/potion_screens.pdf)
+![2 possible configurations for the potion crafting minigame screen](sketches/potion_screens.png)
 
 Option "Drag&drop": If you click on an item you get the description in the bottom-left bubble. You can add an item either by dragging it into the cauldron, or clicking the checkmark in the description bubble. On the left you have a number indicator for how many ingredients you still need and miniatures of the ingredients you've already added. It requires two drawings for each ingredient : on the shelf + miniature icon
 Option "Inventory": You can see all the possible ingredients and their description/effect. You add them with a button. On the right is the cauldron, with miniatures to show what ingredients you've added and how many you still need. The bottom has running commentary from the witch, things like "uh oh, their pronouns are not going to be what they expect according to their genitals, very confusing niark niark niark" (this is a very random example ^^)
