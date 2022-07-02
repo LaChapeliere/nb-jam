@@ -41,7 +41,7 @@ Character blurb:
 Other info:
 
 #### Costumer 1: the transphobic parent
-Name:
+Name: Andreas
 Pronouns: He/him
 Gender info: Cis-man
 Sketches:
@@ -50,9 +50,12 @@ Sketches:
 Character blurb: Father to a trans son, likes to think of himself as accepting of his trans son, but dreams of him actually being a girl and has convinced himself that it would also be better for his "daughter" because being trans is hard
 
 Other info:
+ - Is bi, and draw parallels to the fact that he was bullied and harassed a lot whenever he dated other men, and he's glad the person he ended up marrying and building a life with is a woman because it makes things so much easier, socially speaking.
+ - A professional writer, writes short stories for the radio. Repeat costumer to your shop, they always buy a bunch of "Share-A-Dream" potions because he has this whole creative process where he invites a complete stranger to share a dream together and then uses the dream as inspiration for his writing.
+ - Passionate hiker, recently busted his knee on a hike but mostly healed by the time he visits
 
 #### Costumer 2: the friend
-Name:
+Name: Maddie
 Pronouns: She/her
 Gender info: Demigirl, still somewhat questioning their gender
 Sketches:
@@ -60,7 +63,11 @@ Sketches:
 
 Character blurb: Close friend to the witch, not afraid to tell the witch what she thinks. Autistic, with a passion for understanding people's thought processes.
 
-Other info: Does NOT like to go against rules.
+Other info:
+ - Does NOT like to go against rules.
+ - Questioning whether she's not simply a woman and overcomplicating things because being non-binary is *in*, even though she's aware that's just internalised transphobia.
+ - Sensory issues, gets overwhelmed by sound very easily, super sensitive to smells, visually hypo-sensitive so likes very bright colours and bold designs
+ - Always up for a chill night of coop videogames
 
 #### Costumer 3: the shy one
 Name:
@@ -110,6 +117,7 @@ Option "Inventory": You can see all the possible ingredients and their descripti
 ### Visual assets
 Assets should be in WebP format. This can help convert them to the right format: https://blog.argentgames.co/post/2019-04-08-renpy-image-optimization-imagemagick/
 #### Characters
+No emotion variants for characters, but emoji reaction bubbles
 - [] Sketch characters
   - [] The witch
   - [] The transphobic parent
