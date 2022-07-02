@@ -138,7 +138,7 @@ Assets should be in WebP format. This can help convert them to the right format:
   - [] The transphobic parent
   - [] The friend
   - [] The shy one
-- [] Write scenes
+- [] Write chapters
   - [] Intro (1)
   - [] First monologue (2)
   - [] Friendly argument (4)

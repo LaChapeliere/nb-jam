@@ -24,10 +24,89 @@ label start:
 
     # These display lines of dialogue.
 
-    e "You've created a new Ren'Py game."
+    e "Things are in debug mode for now, so we don't have to play through everything to access a given chapter"
 
-    e "Once you add a story, pictures, and music, you can release it to the world!"
+    e "Just select the chapter you want to access"
 
-    # This ends the game.
+    menu:
+
+        "Intro":
+            jump intro
+
+        "First monologue":
+            jump first_monologue
+
+        "Friendly argument":
+            jump friendly_argument
+
+        "Enthusiastic friend":
+            jump enthusiastic_friend
+
+        "Shy costumer":
+            jump shy_costumer
+
+        "Epilogue":
+            jump epilogue
+
+        "Potion minigame":
+            jump potions
+
+        "None":
+            return
+
 
     return
+
+label intro:
+
+    scene bg room
+
+    "This is the intro chapter"
+
+    jump start
+
+label first_monologue:
+
+    scene bg room
+
+    "This is the first monologue chapter"
+
+    jump start
+
+label friendly_argument:
+
+    scene bg room
+
+    "This is the friendly argument chapter"
+
+    jump start
+
+label enthusiastic_friend:
+
+    scene bg room
+
+    "This is the enthusiastic friend chapter"
+
+    jump start
+
+label shy_costumer:
+
+    scene bg room
+
+    "This is the shy costumer chapter"
+
+    jump start
+
+label epilogue:
+
+    scene bg room
+
+    "This is the epilogue chapter"
+
+    jump start
+
+label potions:
+
+    "This is the potion minigame"
+
+    jump start
