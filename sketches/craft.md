@@ -65,10 +65,10 @@ pic - name - Feels at home with traditionally masculine behaviours and mannerism
 
 
 ### Social gender
-pic - name - Perception is important, you need people to see you first as a woman. - social++
-pic - name - Perception is important, you need people to see you first as a man. - social++
-pic - name - Perception is important, you need people to see you first as a person. - social++
-pic - name - Perception is important, you need people to see you first as an enby. - social++
+pic - name - Perception is important, you need people to see you first as a woman. - social+=2
+pic - name - Perception is important, you need people to see you first as a man. - social+=2
+pic - name - Perception is important, you need people to see you first as a person. - social+=2
+pic - name - Perception is important, you need people to see you first as an enby. - social+=2
 
 ## Potion characteristics
 A potion is described by [where in the gender space you are] + [fluidity] + [the two most important things that create your gender feeling] + [modifiers]
