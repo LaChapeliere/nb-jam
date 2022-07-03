@@ -142,6 +142,7 @@ Assets should be in WebP format. This can help convert them to the right format:
 #### Characters
 
 No emotion variants for characters, but emoji reaction bubbles
+Are front view of the customers necessary?
 
 - [] Sketch characters
   - [] The witch
@@ -149,6 +150,15 @@ No emotion variants for characters, but emoji reaction bubbles
   - [] The friend
   - [] The shy one
 - [] List assets and requirements
+  - [] Witch behind their counter
+  - [] Witch puttering and monologuing in their workshop
+  - [] Miniature witch talking
+  - [] ? Transphobic parent front view ?
+  - [] Transphobic parent back-3-quarter view
+  - [] ? Friend front view ?
+  - [] Friend back-3-quarter view
+  - [] ? Shy one front view ?
+  - [] Shy one back-3-quarter view
 
 #### Backgrounds
 
@@ -156,12 +166,28 @@ No emotion variants for characters, but emoji reaction bubbles
   - [] The shop
   - [] The potion lab
 - [] List assets and requirements
+  - [] Shop background
+  - [] Workshop/potion lab background
+
+#### Objects
+- [] Icon for each ingredient
+- [] Counter for the shop (to layer: background+witch+counter+customer)
+- [] ? Gramophone ?
 
 #### UI elements
 
 - [] List assets and requirements
   - [] Neutral background for menu and potion screen UI (1280\*720)
   - [] Dialogue box
+  - [] "Continue" arrow for the dialogue box
+  - [] Button to access the menu
+  - [] Inventory window
+  - [] Elements to make a scrollbar for the inventory window?
+  - [] Frame for the ingredient icons
+  - [] Dialogue bubble for the potion minigame
+  - [] "Add" button for the potion minigame
+  - [] Emoji reaction bubble
+    - [] The list of reaction will be made after the first draft of the dialogues is written
 
 ### Sound assets
 
