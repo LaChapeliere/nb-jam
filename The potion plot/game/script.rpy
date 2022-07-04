@@ -5,7 +5,7 @@
 
 define w = Character("Witch")
 
-define m = Character("Andreas")
+define a = Character("Andreas")
 
 
 # The game starts here.
@@ -77,7 +77,7 @@ label intro:
 
     a "But the docs have finally given me the okay to be out and about, I can't wait to get back to work!"
 
-    w "I'm sorry to hear about your knee! I hope you're healing without SEQUELLES?"
+    w "I'm sorry to hear about your knee! I hope you're healing without after-effects?"
 
     a "Ah, you know me, a little pain isn't going to keep me down..."
 
@@ -93,7 +93,7 @@ label intro:
 
     "*Andreas react: Laughing/joking/chuckle"
 
-    a "Not surprised. I mean, my INPIRATION process relies mostly on them."
+    a "Not surprised. I mean, my ideation process relies mostly on them."
 
     "*A small crate labeled 'Share-A-Dream' with a colourful logo appears on the counter."
 
