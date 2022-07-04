@@ -73,7 +73,7 @@ label intro:
 
     w "Oh, hello Andreas, long time no see!"
 
-    a "Yay, busted my knee on my last hike, I've been stuck at home for the last few weeks..."
+    a "Yeah, busted my knee on my last hike, I've been stuck at home for the last few weeks..."
 
     a "But the docs have finally given me the okay to be out and about, I can't wait to get back to work!"
 
@@ -93,7 +93,7 @@ label intro:
 
     "*Andreas react: Laughing/joking/chuckle"
 
-    a "Not surprised. I mean, my ideation process relies mostly on them."
+    a "Not surprised. I mean, my creative process relies mostly on them."
 
     "*A small crate labeled 'Share-A-Dream' with a colourful logo appears on the counter."
 
@@ -141,7 +141,7 @@ label intro:
 
     "*Andreas react: Sad"
 
-    a "I'm not saying it wasn't worth it, I mean, I loved each of them pretty damn much, I wouldn't have dealt with the homophobia otherwise!"
+    a "I'm not saying it wasn't worth it, I mean, I damned well loved each of them, I wouldn't have dealt with the homophobia otherwise!"
 
     a "But I'm still glad that the person I ended up marrying and building a life with is a woman because it makes things so much easier, socially speaking."
 
@@ -153,15 +153,17 @@ label intro:
 
     a "That's not... I'm supporting him!! I know how much easier my life would have been if I had been straight!"
 
-    w "I can't even...!"
+    w "I can't even... Okay, I'll say this once and then you're leaving."
 
     "*Witch react: Angry/furious"
 
-    w "Get the hell out of my shop..."
+    w "Set your head straight and check your queerphobia before you set foot here again!"
+
+    w "Now get the hell out of my shop..."
+
+    "+Andreas react: Sad"
 
     "*The customer leaves"
-
-    w "And you better set your head straight and check your queerphobia before you set foot here again!"
 
     "*Door opens and closes"
 
