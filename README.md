@@ -222,3 +222,4 @@ Are front view of the customers necessary?
   - [] Enthusiastic friend (6)
   - [] Shy customer (7)
   - [] Epilogue (9)
+- [] Game warning/preface

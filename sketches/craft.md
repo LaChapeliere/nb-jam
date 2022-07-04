@@ -28,47 +28,52 @@ pic - Taboo bag - Create an rejection reaction to specific words. Primed for "en
 pic - Taboo bag - Create an rejection reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
 pic - Taboo bag - Create an rejection reaction to specific words. Primed for "man" and associated gendered terms. - lang++
 
-pic - name - Create an identifying reaction to specific words. Primed for the "it" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "he" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "she" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "they" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "ze" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "fae" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for the "xe" pronoun set. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for "enby" and associated gender-neutral terms. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
-pic - name - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
+Pics could look like mint candies with the pronoun/label written on it?
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "it" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "he" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "she" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "they" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "ze" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "fae" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for the "xe" pronoun set. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for "enby" and associated gender-neutral terms. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
 
 ### Body
-pic - name - Boobs make good gender feels. - body++
-pic - name - Need hairs. Hairs everywhere. Hairy legs, hairy chest, hairy armpits, hairy face, ... - body++
-pic - name - Love a penis on your body. - body++
-pic - name - A vagina is it for you! - body++
-pic - name - Nothing like menstruation for gender euphoria. - body++
-pic - name - You feel good when you are all beef and brawn.  - body++
-pic - name - You like your body soft and cosy.- body++
+pic - name - Having breasts is gender affirming. - body++
+!! pic - name - Having FOURNI body hair is gender affirming. - body++
+pic - name - Having limited body hair is gender affirming. - body++
+pic - name - Having a penis is gender affirming. - body++
+pic - name - Having a vagina is gender affirming. - body++
+pic - name - Menstruating creates gender euphoria. - body++
+!! pic - name - You feel good when you are all beef and brawn.  - body++
+pic - name - Tie gender to a soft and curvy body image. - body++
+pic - name - Imagining one's body with no genitals is gender affirming. - body++
 
-pic - name - Breasts, please no. - body++
-pic - name - You suffer not that body hairiness. - body++
-pic - name - Thinking about having a penis, immediate dysphoria. - body++
-pic - name - Having a vagina gives you all kind of ugly feels. - body++
-pic - name - You'd rather not have a period, period. - body++
+pic - name - Having breasts (or thinking about them) triggers gender dysphoria. - body++
+pic - name - Having body hair (or thinking about it) triggers gender dysphoria. - body++
+pic - name - Having little to no body hair (or thinking about it) triggers gender dysphoria. - body++
+pic - name - Having a penis (or thinking about it) triggers gender dysphoria. - body++
+pic - name - Having a vagina (or thinking about it) triggers gender dysphoria. - body++
+pic - name - Menstruating (or thinking about it) triggers gender dysphoria. - body++
 
 ### Gender expression
-pic - name - Develops a love for traditionally feminine clothing. - express++
-pic - name - Develops a love for traditionally masculine clothing. - express++
-pic - name - Rejects all traditionally gendered clothing. - express++
-pic - name - Particularly enjoys traditionally feminine activities. - express++
-pic - name - Particularly enjoys traditionally masculine activities. - express++
-pic - name - Feels at home with traditionally feminine behaviours and mannerisms. - express++
-pic - name - Feels at home with traditionally masculine behaviours and mannerisms. - express++
+pic - name - Develop a love for traditionally feminine clothing. - express++
+pic - name - Develop a love for traditionally masculine clothing. - express++
+pic - name - Reject all traditionally gendered clothing. - express++
+pic - name - Particularly enjoy traditionally feminine activities. - express++
+pic - name - Particularly enjoy traditionally masculine activities. - express++
+pic - name - Feel at home with traditionally feminine behaviours and mannerisms. - express++
+pic - name - Feel at home with traditionally masculine behaviours and mannerisms. - express++
 
 
 ### Social gender
-pic - name - Perception is important, you need people to see you first as a woman. - social+=2
-pic - name - Perception is important, you need people to see you first as a man. - social+=2
-pic - name - Perception is important, you need people to see you first as a person. - social+=2
-pic - name - Perception is important, you need people to see you first as an enby. - social+=2
+
+pic - name - Social perception is important. The drinker will need people to see them first as a woman. - social+=2
+pic - name - Social perception is important. The drinker will need people to see them first as a man. - social+=2
+pic - name - Social perception is important. The drinker will need people to see them first as a person. - social+=2
+pic - name - Social perception is important. The drinker will need people to see them first as an enby. - social+=2
 
 ## Potion characteristics
 A potion is described by [where in the gender space you are] + [fluidity] + [the two most important things that create your gender feeling] + [modifiers]
