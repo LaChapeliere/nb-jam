@@ -5,10 +5,10 @@ Format : pic - name - description - effects
 
 ### Gender identity
 Agender: Don't put any of those ingredients
+No mention of culture-specific genders (see content warning)
 
 pic - Essence of man - Make a very manly man. Whatever that means. - man++
 pic - Essence of woman - Make a truly womanly woman. Whatever that means. - woman++
-OTHER GENDER(S)???
 
 ### Fluidity
 
@@ -42,12 +42,12 @@ pic - Language mint - Create an identifying reaction to specific words. Primed f
 
 ### Body
 pic - name - Having breasts is gender affirming. - body++
-!! pic - name - Having FOURNI body hair is gender affirming. - body++
+pic - name - Having abundant body hair is gender affirming. - body++
 pic - name - Having limited body hair is gender affirming. - body++
 pic - name - Having a penis is gender affirming. - body++
 pic - name - Having a vagina is gender affirming. - body++
 pic - name - Menstruating creates gender euphoria. - body++
-!! pic - name - You feel good when you are all beef and brawn.  - body++
+pic - name - Tie gender to a brawny body image.  - body++
 pic - name - Tie gender to a soft and curvy body image. - body++
 pic - name - Imagining one's body with no genitals is gender affirming. - body++
 
