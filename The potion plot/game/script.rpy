@@ -71,7 +71,7 @@ label intro:
 
     "*The first customer, the moose transphobic parent, stand in front of the counter."
 
-    w "Oh, hello Andreas, long time not see!"
+    w "Oh, hello Andreas, long time no see!"
 
     a "Yay, busted my knee on my last hike, I've been stuck at home for the last few weeks..."
 
@@ -145,17 +145,17 @@ label intro:
 
     a "But I'm still glad that the person I ended up marrying and building a life with is a woman because it makes things so much easier, socially speaking."
 
-    a "I don't want to for my child! I want them to be happy and safe!"
+    a "I don't want that for my child! I want them to be happy and safe!"
 
     w "And your plan, to achieve that, is to change who he is, rather than support him and fight for his right to exist?"
 
-    "*Witch reach: Angry/furious"
+    "*Witch react: Angry/furious"
 
     a "That's not... I'm supporting him!! I know how much easier my life would have been if I had been straight!"
 
     w "I can't even...!"
 
-    "*Witch reach: Angry/furious"
+    "*Witch react: Angry/furious"
 
     w "Get the hell out of my shop..."
 
