@@ -38,14 +38,19 @@ A witch (NB?) gets really upset when some parent comes to their shop to ask for 
 #### Main character: the witch
 
 Name:
-Pronouns:
-Gender info:
+Pronouns: Ze
+Gender info: Agender
 Sketches:
 ![put some alt text here](put the path to the image here)
 
-Character blurb:
+Character blurb: Witch with a knack for mind and spirit magic. Was in an apprenticeship to become a certified Healer, but decided to take over the family shop instead because zis mentor wouldn't acknowledge zis gender and pronouns, and the faculty staff refused to do anything to protect zim from the constant misgendering. Grew to love it because ze help people too that way, while getting to experiment and be creative. Plus, ze can just kick people who misgender ze out, even if zis aunt insists that it's bad customer service.
 
 Other info:
+
+- Sarcastic
+- Most of zis family couldn't care less about social norms, which helped ze figure zis gender out pretty young and empowered ze never to feel like ze was the one who had to make allowances when other people are uncomfortable/confused with zis gender
+- Barely thirty, tired of people thinking ze have to be old and using magic to look young just because ze are a witch.
+- Loves plants but has to take care of them the old fashioned way, because zis magic is definitively not earth-oriented.
 
 #### customer 1: the transphobic parent
 
@@ -188,6 +193,11 @@ Are front view of the customers necessary?
   - [] "Add" button for the potion minigame
   - [] Emoji reaction bubble
     - [] The list of reaction will be made after the first draft of the dialogues is written
+    - [] Laughing/joking/chuckle
+    - [] Angry/furious
+    - [] Grateful/relieved
+    - [] Eye roll
+    - [] Sad
 
 ### Sound assets
 
