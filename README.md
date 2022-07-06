@@ -134,6 +134,7 @@ Option "Inventory": You can see all the possible ingredients and their descripti
 
 - [] List functionalities
   - [] Option to adjust audio volume (music, sound effects)
+  - [] Option to skip the first potion minigame
 
 ### Visual assets
 
