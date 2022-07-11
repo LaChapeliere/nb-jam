@@ -107,6 +107,15 @@ label epilogue:
 
 label potions:
 
+    $ inventory_list = [Ingredient(), Ingredient(name="Blob"), Ingredient(description="Another potion ingredient")]
+    $ cauldron_content = []
+    show screen inventory(inventory_list)
+    show screen cauldron(cauldron_content)
+
     "This is the potion minigame"
+
+    # This should be done via "ToggleScreen" in the action to close the minigame
+    hide screen inventory
+    hide screen cauldron
 
     jump start
