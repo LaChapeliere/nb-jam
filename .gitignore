@@ -133,3 +133,4 @@ log.txt
 */game/cache/
 */game/saves/
 */game/*.rpyc
+traceback.txt

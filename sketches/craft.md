@@ -5,10 +5,11 @@ Format : pic - name - description - effects
 
 ### Gender identity
 Agender: Don't put any of those ingredients
+No mention of culture-specific genders (see content warning)
 
 pic - Essence of man - Make a very manly man. Whatever that means. - man++
 pic - Essence of woman - Make a truly womanly woman. Whatever that means. - woman++
-OTHER GENDER(S)???
+pic - name - Make the drinker identifies with a gender outside the man/woman continuum. Whatever that means. - enby++
 
 ### Fluidity
 
@@ -42,12 +43,12 @@ pic - Language mint - Create an identifying reaction to specific words. Primed f
 
 ### Body
 pic - name - Having breasts is gender affirming. - body++
-!! pic - name - Having FOURNI body hair is gender affirming. - body++
+pic - name - Having abundant body hair is gender affirming. - body++
 pic - name - Having limited body hair is gender affirming. - body++
 pic - name - Having a penis is gender affirming. - body++
 pic - name - Having a vagina is gender affirming. - body++
 pic - name - Menstruating creates gender euphoria. - body++
-!! pic - name - You feel good when you are all beef and brawn.  - body++
+pic - name - Tie gender to a brawny body image.  - body++
 pic - name - Tie gender to a soft and curvy body image. - body++
 pic - name - Imagining one's body with no genitals is gender affirming. - body++
 
@@ -59,13 +60,14 @@ pic - name - Having a vagina (or thinking about it) triggers gender dysphoria. -
 pic - name - Menstruating (or thinking about it) triggers gender dysphoria. - body++
 
 ### Gender expression
-pic - name - Develop a love for traditionally feminine clothing. - express++
-pic - name - Develop a love for traditionally masculine clothing. - express++
-pic - name - Reject all traditionally gendered clothing. - express++
-pic - name - Particularly enjoy traditionally feminine activities. - express++
-pic - name - Particularly enjoy traditionally masculine activities. - express++
-pic - name - Feel at home with traditionally feminine behaviours and mannerisms. - express++
-pic - name - Feel at home with traditionally masculine behaviours and mannerisms. - express++
+pic - name - The drinker will feel at ease wearing any clothes they like, no matter how they are traditionally gendered. - express++
+pic - name - The drinker will develop a love for traditionally feminine clothing. - express++
+pic - name - The drinker will develop a love for traditionally masculine clothing. - express++
+pic - name - The drinker will reject all traditionally gendered clothing. - express++
+pic - name - The drinker will particularly enjoy traditionally feminine activities. - express++
+pic - name - The drinker will particularly enjoy traditionally masculine activities. - express++
+pic - name - The drinker will feel at home with traditionally feminine behaviours and mannerisms. - express++
+pic - name - The drinker will feel at home with traditionally masculine behaviours and mannerisms. - express++
 
 
 ### Social gender
