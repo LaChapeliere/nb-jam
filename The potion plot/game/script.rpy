@@ -177,6 +177,58 @@ label first_monologue:
 
     "This is the first monologue chapter"
 
+    "*The witch is pacing in zir workshop."
+
+    w "This is so infuriating!"
+
+    w "You spend time and energy educating folks, making sure they understand other people's gender is none of their business..."
+
+    w "...and you {i}think{/i} you've finally gotten the message accross, but then no!"
+
+    w "They go and say some disgusting shit like 'Can you please make my son not trans cause being trans sucks'!"
+
+    w "Want to bet Andreas's feeling self-righteous right now, telling his buddies that I'm an intolerant gender fanatic or something?"
+
+    w "{i}aaaaargh{/i}"
+
+    w "I just want to kick all those transphobic pricks in the guts!"
+
+    w "Bust a few kneecaps..."
+
+    w "Gouge a couple of eyeballs out..."
+
+    "*Heavy sigh"
+
+    w ""
+
+    w "Like I'd ever do that... I'd probably sprain a wing or something..."
+
+    w "Still, it'd feel good to teach them all a lesson!"
+
+    w "Make them understand how confusing your own gender can be, and how gender feels can come from a lot of different things."
+
+    w "..."
+
+    w "Wait a sec..."
+
+    w "I can do that!"
+
+    w "A potion that changes the drinker's gender for a day or so shouldn't be too hard..."
+
+    w "I can use that gender spell I developed when I was a teen, infuse a bunch of ingredients with intent, and then combine them into a potion..."
+
+    w "Let's see... I can use taboo bags for pronouns, for example."
+
+    w "Body parts are easy... Hum, might have to think a bit for things related to behaviours..."
+
+    w "Yes, yes, this is a great idea!!"
+
+    w "I can make a few different potions, build genders that'll confuse the heck out of transphobic bastards!"
+
+    w "It shouldn't be too hard, most of them start panicking whenever someone's facial pilosity or preferred clothing isn't what they expected according to their first name..."
+
+    w "Well, time to get to work, then!"
+
     jump start
 
 label friendly_argument:

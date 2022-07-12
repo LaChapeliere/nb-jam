@@ -40,6 +40,7 @@ A witch (NB?) gets really upset when some parent comes to their shop to ask for 
 Name:
 Pronouns: Ze/zir
 Gender info: Agender
+Animal: Ostrich
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -57,6 +58,7 @@ Other info:
 Name: Andreas
 Pronouns: He/him
 Gender info: Cis-man
+Animal: Moose
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -73,6 +75,7 @@ Other info:
 Name: Maddie
 Pronouns: She/her
 Gender info: Demigirl, still somewhat questioning their gender
+Animal: Meerkat
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -90,6 +93,7 @@ Other info:
 Name:
 Pronouns:
 Gender info: Not cis
+Animal: Long-eared owl
 Sketches:
 ![put some alt text here](put the path to the image here)
 
