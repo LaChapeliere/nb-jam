@@ -39,7 +39,7 @@ pic - Language mint - Create an identifying reaction to specific words. Primed f
 pic - Language mint - Create an identifying reaction to specific words. Primed for the "xe" pronoun set. - lang++
 pic - Language mint - Create an identifying reaction to specific words. Primed for "enby" and associated gender-neutral terms. - lang++
 pic - Language mint - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
-pic - Language mint - Create an identifying reaction to specific words. Primed for "woman" and associated gendered terms. - lang++
+pic - Language mint - Create an identifying reaction to specific words. Primed for "man" and associated gendered terms. - lang++
 
 ### Body
 pic - name - Having breasts is gender affirming. - body++
