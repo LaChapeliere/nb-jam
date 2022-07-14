@@ -134,3 +134,4 @@ log.txt
 */game/saves/
 */game/*.rpyc
 traceback.txt
+errors.txt
