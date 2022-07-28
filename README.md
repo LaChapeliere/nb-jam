@@ -38,20 +38,27 @@ A witch (NB?) gets really upset when some parent comes to their shop to ask for 
 #### Main character: the witch
 
 Name:
-Pronouns:
-Gender info:
+Pronouns: Ze/zir
+Gender info: Agender
+Animal: Ostrich
 Sketches:
 ![put some alt text here](put the path to the image here)
 
-Character blurb:
+Character blurb: Witch with a knack for mind and spirit magic. Was in an apprenticeship to become a certified Healer, but decided to take over the family shop instead because zir mentor wouldn't acknowledge zir gender and pronouns, and the faculty staff refused to do anything to protect zir from the constant misgendering. Grew to love it because ze helps people too that way, while getting to experiment and be creative. Plus, ze can just kick people who misgender zir out, even if zir aunt insists that it's bad customer service.
 
 Other info:
+
+- Sarcastic
+- Most of zir family couldn't care less about social norms, which helped ze figure zir gender out pretty young and empowered ze never to feel like ze was the one who had to make allowances when other people are uncomfortable/confused with zir gender
+- Barely thirty, tired of people thinking ze have to be old and using magic to look young just because ze are a witch.
+- Loves plants but has to take care of them the old fashioned way, because zir magic is definitively not earth-oriented.
 
 #### customer 1: the transphobic parent
 
 Name: Andreas
 Pronouns: He/him
 Gender info: Cis-man
+Animal: Moose
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -68,6 +75,7 @@ Other info:
 Name: Maddie
 Pronouns: She/her
 Gender info: Demigirl, still somewhat questioning their gender
+Animal: Meerkat
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -85,6 +93,7 @@ Other info:
 Name:
 Pronouns:
 Gender info: Not cis
+Animal: Long-eared owl
 Sketches:
 ![put some alt text here](put the path to the image here)
 
@@ -188,6 +197,11 @@ Are front view of the customers necessary?
   - [] "Add" button for the potion minigame
   - [] Emoji reaction bubble
     - [] The list of reaction will be made after the first draft of the dialogues is written
+    - [] Laughing/joking/chuckle
+    - [] Angry/furious
+    - [] Grateful/relieved
+    - [] Eye roll
+    - [] Sad
 
 ### Sound assets
 
