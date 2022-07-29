@@ -7,6 +7,8 @@ define w = Character("Witch")
 
 define a = Character("Andreas")
 
+define m = Character("Maddie")
+
 
 # The game starts here.
 
@@ -236,6 +238,162 @@ label friendly_argument:
     scene bg room
 
     "This is the friendly argument chapter"
+
+    "*The witch is in a shop, standing at the counter. Music is playing in the background."
+
+    "*The door opens and close."
+
+    "*The meerkat friend comes in."
+
+    w "Oh hi! Give me a second, I'll turn off the music!"
+
+    "*The music stops"
+
+    "*Maddie react: Grateful"
+
+    m "So, I'm here, what do you need my help with?"
+
+    w "What, not even an 'How're you doing, darling'? I'm hurt, Maddie, really hurt!"
+
+    "*Witch react: Laughing"
+
+    "*Maddie react: Eye roll"
+
+    m "Right, how have you been doing, 'darling', in the last hour since we chatted on the phone?"
+
+    w "Just peachy, thank you! What about you?"
+
+    m "Curious about that big secret project you need me for... Am I finally going to know what this is about?"
+
+    w "Haha, the suspense must be killing you!"
+
+    w "Not literally."
+
+    m "I know, I understood."
+
+    w "Okay, good! So the project..."
+
+    w "I've got this big box of potions here, and I need your help to... distribute it..."
+
+    m "I thought you had a deal with the couriers office next street over for deliveries?"
+
+    w "Yeah, no, not that kind of distribution! For that one, we have to get a lot closer to our... marks..."
+
+    "*Maddie react: Eye roll"
+
+    m "Drop the mystery, W., you're not making any sense."
+
+    w "And you're no fun!"
+
+    "*Witch react: Angry"
+
+    w "But okay, I guess I should explain properly!"
+
+    m "Thank you!"
+
+    w "I had yet another argument with a client couple of days ago, about their son."
+
+    w "Kiddo's trans, but his father'd rather he wasn't, all for his son's happiness of course, so he asked me to make a potion to change their gender 'back'."
+
+    "*Maddie react: Angry"
+
+    w "Yeah, I was pretty furious myself..."
+
+    w "But anyway, it got me thinking... How would all those pricks like it if their gender didn't correspond to their expectations or society's expectations anymore?"
+
+    w "Those potions are my newest invention. They give the drinker another gender for a day, or so."
+
+    w "Just the gender feels, it won't change your body or the clothes you are wearing or anything."
+
+    w "I can't reproduce what it means to **grow up** misgendered, or how soul-draining figuring your gender can be, or any long-term stuff like that, but I can definitively get them to experience the dysphoria and disorientation!"
+
+    w "So I made this bunch, they are all for genders that should confuse the heck out of those obsolete assholes who see people through a binary pink-and-blue lens!"
+
+    w "Only thing that's left to do is for us to discreetly pour them into the drinks of a bunch of partying transphobes at a bar! I'm thinking the Green Monkey, it's close by and they are notoriously anti-trans..."
+
+    m "..."
+
+    m "I..."
+
+    m "Are you serious right now?"
+
+    w "Err, yes?"
+
+    m "You want us to go and drug several dozen people against their consent, with a potion that could have disastrous consequences for their mental health, because it might teach them a lesson? Or is it just for revenge?"
+
+    w "Hum, both?"
+
+    m "And you didn't think I'd object to your plan?"
+
+    w "Err, do you? Object to my plan, I mean?"
+
+    m "Do I... Of course I object! There are so many things wrong with it, I don't even know where to start!"
+
+    "*Maddie react: Angry"
+
+    m "First, I'm not drugging people's drinks! Not matter how asshole-y they are! It's, like, super violent, and illegal, and, and, **not okay**!"
+
+    m "Second, you don't even know that your 'marks', as you say, as transphobes. They could be random people who happen to live or work close by the Green Monkey and have no idea it's a famous anti-queer place."
+
+    m "Like, being that oblivious is not good, sure, but it doesn't they deserve to be punished for it..."
+
+    w "Okay, then let's find a way to target only verified transphobes, or whatever! It's not like we have a shortage of those..."
+
+    m "Did you not hear my first point?"
+
+    "*Witch react: Angry"
+
+    w "Okay, okay, I won't involve you, I'll go take care of it on my own..."
+
+    m "You really shouldn't... And that's my third point: are you doing this for revenge, or to make them empathise with us?"
+
+    m "Because if you think this will be a learning experience for them, I'm going to be honest with you!"
+
+    m "If I was convinced that being trans isn't normal, is maybe an illness or a sin, and a trans activist came and messed with my sense of self for a day, I'd be much more likely to hate and fear trans people as a result than anything else..."
+
+    m "Think about it!"
+
+    w "..."
+
+    w "Okay... Okay, maybe you're right!"
+
+    w "But I was so pissed off with that guy!"
+
+    "*Maddie react: Eye roll"
+
+    w "Well... Guess I should dump those potions down the drain, then..."
+
+    w "It's probably best not to leave them lying around. Especially since they've got to be saturated in negative energies..."
+
+    m "Hum..."
+
+    m "Do you think your potion concept could be applied in a more... helpful way?"
+
+    w "What do you have in mind?"
+
+    m "Well, your process let's you 'build' a gender with various characteristics, right?"
+
+    w "Yeah..."
+
+    m "So, for example, you could create a potion for me to be a woman for a day, and one for me to be agender for a day, and I could compare with how I generally feel."
+
+    m "It might help me figure things out once and for all..."
+
+    m "I'm just sick of just permanently questionning if I'm not just cis and overly complicating things..."
+
+    w "Oh, Maddie!"
+
+    "*Maddie react: Crying"
+
+    w "I can sure make you those potions if you think it could help. I can even make some with various degrees of 'woman-ness' At least that's the theory... And I can tie a lot of parameters to gender euphoria and dysphoria, if you want. Stuff like language and body parts and social perception."
+
+    "*Maddie react: Happy"
+
+    m "That'd be great! Can I come to the back with you so you can show me the options and everything?"
+
+    "*Witch react: Happy"
+
+    w "Sure, come on, let me just lock the front door and we can get brewing!"
 
     jump start
 
