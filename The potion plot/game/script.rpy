@@ -9,6 +9,7 @@ define a = Character("Andreas")
 
 define m = Character("Maddie")
 
+define f = Character("Farah")
 
 # The game starts here.
 
@@ -418,6 +419,94 @@ label epilogue:
     scene bg room
 
     "This is the epilogue chapter"
+
+    "*The witch is in a shop, standing at the counter. Music is playing in the background."
+
+    w "**sigh** Slow day..."
+
+    "*The door opens and close."
+
+    w "Oh, a customer, welcome!"
+
+    "*Witch react: Happy"
+
+    f "Hi, err, good afternoon."
+
+    f "Hum, I hope I'm not interupting anything?"
+
+    w "Seriously? I was so bored I was considering breaking out the duster..."
+
+    "*Witch react: Eye roll"
+
+    w "So I'm all yours!! What can I do for you, friend?"
+
+    f "Ah, that's nice... I'm Farah."
+
+    f "I use they/them pronouns. I think..."
+
+    w "Welcome to my humble shop Farah! I'm the resident witch, ze/zir. You can actually call me 'witch' or 'the witch', since I foolishly offered my first name to demons to seal a deal when I was a kid..."
+
+    f "Err, that's... I'm sorry?"
+
+    w "Don't sweat it, I'm used to it now... Plus, I could easily pick a new name, but the mystery works well with the shop and everything..."
+
+    w "And I doubt you came in here to hear my origin story, anyway! Probably more interested in the spells and amulets... Anything specific in mind?"
+
+    f "Well... I'm not sure my information was correct... It seemed a bit... too good to be true?"
+
+    f "So please don't mind me if I'm actually asking for the moon!"
+
+    f "I've heard you can brew custom potions to change someone's gender for a few hours?"
+
+    w "Oh, yeah, sure, the Build-A-Gender potions!"
+
+    f "So it's true?"
+
+    w "Sure is!"
+
+    w "I don't openly advertise for it because I'm afraid people might misuse it, but I've been spreading the word about them for a couple of month through our community's gravepine. Makes me really happy to see new people coming in to ask for it!"
+
+    "*Farah react: Happy"
+
+    f "Oh this is great!!"
+
+    f "And I can ask for anything?"
+
+    w "Well, not anything anything. I can't recreate genders that are totally outside of my cultural experience, for example. And I won't make it last more than a day, for safety reasons."
+
+    f "That still sounds great!"
+
+    "*Farah react: Happy"
+
+    f "So... How do I... Do I need to fill in an order form?"
+
+    f "Or maybe you already have a waiting list, I don't wait to sound impatient!"
+
+    "*Witch react: Laughing"
+
+    w "Nothing like that, love. No order form, no waiting list..."
+
+    w "Just a chat around a cup of tea, so I can explain how it works and what options you have, and you can pick what would help you the most."
+
+    w "We can do it now, since nothing else seems to be happening. Or we can make an appointment outside of opening hours if you'd rather be sure no one interrupts."
+
+    w "Whatever you prefer!"
+
+    f "Oh, this is, I didn't expect..."
+
+    w "I'm not going to pry, honest. I know how difficult it can be to put that stuff into words, especially when talking to a stranger."
+
+    w "You can just tell me yes or no for the various variants if you're more comfortable with that. I'll offer advice if you want it, but those potions are to help **you** figure **you** out, so you don't have to explain your choices to me!"
+
+    f "Ah, okay. This... It sounds easier. Thank you!"
+
+    w "You're welcome! Do you want me to put the keetle on, or would you rather come back later?"
+
+    f "I... Now? If it's not too much trouble?"
+
+    w "Sure isn't! Give me a sec, I'll grab the tea set and a couple of ottomans."
+
+    "*Farah react: Happy"
 
     jump start
 

@@ -90,8 +90,8 @@ Other info:
 
 #### customer 3: the shy one
 
-Name:
-Pronouns:
+Name: Farah
+Pronouns: They/them
 Gender info: Not cis
 Animal: Long-eared owl
 Sketches:
