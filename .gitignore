@@ -130,7 +130,10 @@ dmypy.json
 
 # Ren'Py files
 log.txt
+errors.txt
+traceback.txt
+lint.txt
 */game/cache/
 */game/saves/
 */game/*.rpyc
-traceback.txt
+*/game/tl/
