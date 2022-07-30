@@ -19,60 +19,25 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene bg intro
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    pause
 
-    show eileen happy
+    "Content warning: transphobia, mention of drugging drinks."
 
-    # These display lines of dialogue.
+    jump intro
 
-    w "Things are in debug mode for now, so we don't have to play through everything to access a given chapter"
-
-    w "Just select the chapter you want to access"
-
-    menu:
-
-        "Intro":
-            jump intro
-
-        "First monologue":
-            jump first_monologue
-
-        "Friendly argument":
-            jump friendly_argument
-
-        "Enthusiastic friend":
-            jump enthusiastic_friend
-
-        "Shy costumer":
-            jump shy_costumer
-
-        "Epilogue":
-            jump epilogue
-
-        "Potion minigame":
-            jump potions
-
-        "None":
-            return
-
-
-    return
 
 label intro:
 
-    scene bg room
-
-    "This is the intro chapter"
-
-    "*The witch is in a shop, standing at the counter."
+    scene bg shop
+    show witch front
+    with fade
 
     "*The door opens and close."
 
-    "*The first customer, the moose transphobic parent, stand in front of the counter."
+    show andrea back
+    with moveinright
 
     w "Oh, hello Andreas, long time no see!"
 
@@ -166,19 +131,24 @@ label intro:
 
     "+Andreas react: Sad"
 
-    "*The customer leaves"
+    hide andrea
+    with moveoutright
 
     "*Door opens and closes"
 
     w "Asshole!"
 
-    jump start
+    jump first_monologue
 
 label first_monologue:
 
-    scene bg room
+    hide witch
 
-    "This is the first monologue chapter"
+    scene bg shop
+    with fade
+
+    show witch front
+    with moveinright
 
     "*The witch is pacing in zir workshop."
 
@@ -232,19 +202,28 @@ label first_monologue:
 
     w "Well, time to get to work, then!"
 
-    jump start
+    jump potion_placeholder
+
+
+label potion_placeholder:
+
+    "This is the potion minigame"
+
+    jump friendly_argument
+
 
 label friendly_argument:
 
-    scene bg room
+    scene bg shop
+    show witch front
+    with fade
 
-    "This is the friendly argument chapter"
-
-    "*The witch is in a shop, standing at the counter. Music is playing in the background."
+    "Music is playing in the background."
 
     "*The door opens and close."
 
-    "*The meerkat friend comes in."
+    show maddie back
+    with moveinright
 
     w "Oh hi! Give me a second, I'll turn off the music!"
 
@@ -260,7 +239,7 @@ label friendly_argument:
 
     "*Maddie react: Eye roll"
 
-    m "Right, how have you been doing, 'darling', in the last hour since we chatted on the phone?"
+    m "Right, how have you been doing, {i}darling{/i}, in the last hour since we chatted on the phone?"
 
     w "Just peachy, thank you! What about you?"
 
@@ -294,7 +273,7 @@ label friendly_argument:
 
     w "I had yet another argument with a client couple of days ago, about their son."
 
-    w "Kiddo's trans, but his father'd rather he wasn't, all for his son's happiness of course, so he asked me to make a potion to change their gender 'back'."
+    w "Kiddo's trans, but his father'd rather he wasn't, all for his son's happiness of course, so he asked me to make a potion to change their gender {i}back{/i}."
 
     "*Maddie react: Angry"
 
@@ -306,7 +285,7 @@ label friendly_argument:
 
     w "Just the gender feels, it won't change your body or the clothes you are wearing or anything."
 
-    w "I can't reproduce what it means to **grow up** misgendered, or how soul-draining figuring your gender can be, or any long-term stuff like that, but I can definitively get them to experience the dysphoria and disorientation!"
+    w "I can't reproduce what it means to {b}grow up{/b} misgendered, or how soul-draining figuring your gender can be, or any long-term stuff like that, but I can definitively get them to experience the dysphoria and disorientation!"
 
     w "So I made this bunch, they are all for genders that should confuse the heck out of those obsolete assholes who see people through a binary pink-and-blue lens!"
 
@@ -332,7 +311,7 @@ label friendly_argument:
 
     "*Maddie react: Angry"
 
-    m "First, I'm not drugging people's drinks! Not matter how asshole-y they are! It's, like, super violent, and illegal, and, and, **not okay**!"
+    m "First, I'm not drugging people's drinks! Not matter how asshole-y they are! It's, like, super violent, and illegal, and, and, {b}not okay{/b}!"
 
     m "Second, you don't even know that your 'marks', as you say, as transphobes. They could be random people who happen to live or work close by the Green Monkey and have no idea it's a famous anti-queer place."
 
@@ -372,7 +351,7 @@ label friendly_argument:
 
     w "What do you have in mind?"
 
-    m "Well, your process let's you 'build' a gender with various characteristics, right?"
+    m "Well, your process let's you {i}build{/i} a gender with various characteristics, right?"
 
     w "Yeah..."
 
@@ -386,7 +365,7 @@ label friendly_argument:
 
     "*Maddie react: Crying"
 
-    w "I can sure make you those potions if you think it could help. I can even make some with various degrees of 'woman-ness' At least that's the theory... And I can tie a lot of parameters to gender euphoria and dysphoria, if you want. Stuff like language and body parts and social perception."
+    w "I can sure make you those potions if you think it could help. I can even make some with various degrees of {i}woman-ness{/i} At least that's the theory... And I can tie a lot of parameters to gender euphoria and dysphoria, if you want. Stuff like language and body parts and social perception."
 
     "*Maddie react: Happy"
 
@@ -396,37 +375,26 @@ label friendly_argument:
 
     w "Sure, come on, let me just lock the front door and we can get brewing!"
 
-    jump start
+    jump epilogue
 
-label enthusiastic_friend:
 
-    scene bg room
-
-    "This is the enthusiastic friend chapter"
-
-    jump start
-
-label shy_costumer:
-
-    scene bg room
-
-    "This is the shy costumer chapter"
-
-    jump start
 
 label epilogue:
 
-    scene bg room
+    scene bg shop
+    show witch front
+    with moveinright
 
-    "This is the epilogue chapter"
+    "Music is playing in the background."
 
-    "*The witch is in a shop, standing at the counter. Music is playing in the background."
-
-    w "**sigh** Slow day..."
+    w "{i}sigh{/i} Slow day..."
 
     "*The door opens and close."
 
     w "Oh, a customer, welcome!"
+
+    show farah back
+    with moveinright
 
     "*Witch react: Happy"
 
@@ -508,10 +476,10 @@ label epilogue:
 
     "*Farah react: Happy"
 
-    jump start
 
-label potions:
+    hide witch
+    hide farah
+    show bg credits
+    with fade
 
-    "This is the potion minigame"
-
-    jump start
+    pause
