@@ -56,7 +56,9 @@ label intro:
     show counter small
     with fade
 
-    "*The door opens and close."
+    play sound "audio/SFX_DoorOpen.wav"
+    queue sound "audio/SFX_DoorClose_Light.wav"
+    pause 0.6
 
     show andreas back:
         xalign 0.4
@@ -121,7 +123,7 @@ label intro:
 
     w "But we've known each other for a long time, so I'll give you one chance to convince me not to throw you out of my shop..."
 
-    a "Okay, so he's a boy, but he'll always be a **trans** boy."
+    a "Okay, so he's a boy, but he'll always be a {b}trans{/b} boy."
 
     a "And people, they aren't nice. He comes home crying at least once a week because he got bullied at school."
 
@@ -129,7 +131,7 @@ label intro:
 
     a "I'm bi. People usually assume I'm straight, because of my wife, but I've been in relationships with guys, too."
 
-    a "I don't know what hit me the hardest, the street harassment or the constant reminders that I was **different** by well-meaning friends and family..."
+    a "I don't know what hit me the hardest, the street harassment or the constant reminders that I was {b}different{/b} by well-meaning friends and family..."
 
     "*Andreas react: Sad"
 
@@ -158,7 +160,9 @@ label intro:
     hide andreas
     with moveoutright
 
-    "*Door opens and closes"
+    play sound "audio/SFX_DoorOpen.wav"
+    queue sound "audio/SFX_DoorClose_Hard.wav"
+    pause 0.6
 
     w "Asshole!"
 
@@ -255,7 +259,9 @@ label friendly_argument:
     show counter small
     with fade
 
-    "*The door opens and close."
+    play sound "audio/SFX_DoorOpen.wav"
+    queue sound "audio/SFX_DoorClose_Light.wav"
+    pause 0.6
 
     show maddie back:
         xalign 0.53
@@ -432,7 +438,9 @@ label epilogue:
 
     w "{i}sigh{/i} Slow day..."
 
-    "*The door opens and close."
+    play sound "audio/SFX_DoorOpen.wav"
+    queue sound "audio/SFX_DoorClose_Light.wav"
+    pause 0.6
 
     w "Oh, a customer, welcome!"
 
