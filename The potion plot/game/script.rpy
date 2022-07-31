@@ -41,11 +41,13 @@ label start:
 
     "Content warning: transphobia, mention of drugging drinks."
 
-    #jump intro
-    jump epilogue
+    jump intro
+    #jump epilogue
 
 
 label intro:
+
+    play music poisonloop fadein 5.0
 
     scene bg shop small
     show witch front:
@@ -231,6 +233,8 @@ label first_monologue:
 
 label potion_placeholder:
 
+    stop music fadeout 1.0
+
     hide witch
     scene bg intro small
     with fade
@@ -242,14 +246,14 @@ label potion_placeholder:
 
 label friendly_argument:
 
+    play music funpotionmaking fadein 0.5
+
     scene bg shop small
     show witch front:
         xalign 0.70
         yalign 0.22
     show counter small
     with fade
-
-    "Music is playing in the background."
 
     "*The door opens and close."
 
@@ -260,7 +264,8 @@ label friendly_argument:
 
     w "Oh hi! Give me a second, I'll turn off the music!"
 
-    "*The music stops"
+    stop music
+    play music friendtone fadein 7.0
 
     "*Maddie react: Grateful"
 
@@ -413,6 +418,8 @@ label friendly_argument:
 
 
 label epilogue:
+
+    play music funpotionmaking fadein 1.0
 
     scene bg shop small
     show witch front:
