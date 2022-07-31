@@ -347,7 +347,6 @@ label friendly_argument:
     w "Oh hi! Give me a second, I'll turn off the music!"
 
     stop music
-    play music friendtone fadein 7.0
 
     show react happy at maddie_react
 
