@@ -5,11 +5,27 @@
 
 define w = Character("Witch")
 
+image witch front:
+    "images/witch front.png"
+    zoom 0.43
+
 define a = Character("Andreas")
+
+image andreas back:
+    "images/andreas back.png"
+    zoom 0.52
 
 define m = Character("Maddie")
 
+image maddie back:
+    "images/maddie back.png"
+    zoom 0.37
+
 define f = Character("Farah")
+
+image farah back:
+    "images/farah back.png"
+    zoom 0.4
 
 # The game starts here.
 
@@ -19,24 +35,30 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg intro
+    scene bg intro small
 
     pause
 
     "Content warning: transphobia, mention of drugging drinks."
 
-    jump intro
+    #jump intro
+    jump epilogue
 
 
 label intro:
 
-    scene bg shop
-    show witch front
+    scene bg shop small
+    show witch front:
+        xalign 0.70
+        yalign 0.22
+    show counter small
     with fade
 
     "*The door opens and close."
 
-    show andrea back
+    show andreas back:
+        xalign 0.4
+        yalign 0.41
     with moveinright
 
     w "Oh, hello Andreas, long time no see!"
@@ -131,7 +153,7 @@ label intro:
 
     "+Andreas react: Sad"
 
-    hide andrea
+    hide andreas
     with moveoutright
 
     "*Door opens and closes"
@@ -142,12 +164,14 @@ label intro:
 
 label first_monologue:
 
+    scene bg workshop small
     hide witch
-
-    scene bg shop
+    hide counter
     with fade
 
-    show witch front
+    show witch front:
+        xalign 0.5
+        yalign 0.75
     with moveinright
 
     "*The witch is pacing in zir workshop."
@@ -207,22 +231,31 @@ label first_monologue:
 
 label potion_placeholder:
 
-    "This is the potion minigame"
+    hide witch
+    scene bg intro small
+    with fade
+
+    "{b}This was supposed to be a minigame to make Build-A-Gender potions, but Life happened...{/b}"
 
     jump friendly_argument
 
 
 label friendly_argument:
 
-    scene bg shop
-    show witch front
+    scene bg shop small
+    show witch front:
+        xalign 0.70
+        yalign 0.22
+    show counter small
     with fade
 
     "Music is playing in the background."
 
     "*The door opens and close."
 
-    show maddie back
+    show maddie back:
+        xalign 0.53
+        yalign 0.53
     with moveinright
 
     w "Oh hi! Give me a second, I'll turn off the music!"
@@ -381,9 +414,12 @@ label friendly_argument:
 
 label epilogue:
 
-    scene bg shop
-    show witch front
-    with moveinright
+    scene bg shop small
+    show witch front:
+        xalign 0.70
+        yalign 0.22
+    show counter small
+    with fade
 
     "Music is playing in the background."
 
@@ -393,7 +429,9 @@ label epilogue:
 
     w "Oh, a customer, welcome!"
 
-    show farah back
+    show farah back:
+        xalign 0.53
+        yalign 0.53
     with moveinright
 
     "*Witch react: Happy"
@@ -479,7 +517,7 @@ label epilogue:
 
     hide witch
     hide farah
-    show bg credits
+    scene bg credits small
     with fade
 
     pause
