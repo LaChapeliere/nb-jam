@@ -509,7 +509,7 @@ label epilogue:
 
     w "I'm not going to pry, honest. I know how difficult it can be to put that stuff into words, especially when talking to a stranger."
 
-    w "You can just tell me yes or no for the various variants if you're more comfortable with that. I'll offer advice if you want it, but those potions are to help **you** figure **you** out, so you don't have to explain your choices to me!"
+    w "You can just tell me yes or no for the various variants if you're more comfortable with that. I'll offer advice if you want it, but those potions are to help {b}you{/b} figure {b}you{/b} out, so you don't have to explain your choices to me!"
 
     f "Ah, okay. This... It sounds easier. Thank you!"
 
