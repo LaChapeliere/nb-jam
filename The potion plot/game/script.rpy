@@ -246,7 +246,7 @@ label potion_placeholder:
 
 label friendly_argument:
 
-    play music funpotionmaking fadein 0.5
+    play music poisonloop fadein 0.5
 
     scene bg shop small
     show witch front:
