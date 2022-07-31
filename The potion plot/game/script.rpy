@@ -81,7 +81,7 @@ image react flower:
     repeat
 
 image react laugh:
-    "hahah/laugh1.png"
+    "hahaha/laugh1.png"
     0.1 #this part defines how long to wait before next frame
     "hahaha/laugh2.png"
     0.1
