@@ -9,11 +9,22 @@ image witch front:
     "images/witch front.png"
     zoom 0.43
 
+transform witch_shop_react:
+    xalign 0.87
+    yalign 0.06
+    xzoom -1.0
+
+
 define a = Character("Andreas")
 
 image andreas back:
     "images/andreas back.png"
     zoom 0.52
+
+transform andreas_react:
+    xalign 0.27
+    yalign 0.17
+
 
 define m = Character("Maddie")
 
@@ -21,11 +32,67 @@ image maddie back:
     "images/maddie back.png"
     zoom 0.37
 
+transform maddie_react:
+    xalign 0.39
+    yalign 0.16
+
+
 define f = Character("Farah")
 
 image farah back:
     "images/farah back.png"
     zoom 0.4
+
+transform farah_react:
+    xalign 0.37
+    yalign 0.20
+
+
+image react angry:
+    "angry/angry1.png"
+    0.1 #this part defines how long to wait before next frame
+    "angry/angry2.png"
+    0.1
+    repeat
+
+image react eyeroll:
+    "eyeroll/eyeroll1.png"
+    0.1 #this part defines how long to wait before next frame
+    "eyeroll/eyeroll2.png"
+    0.1
+    "eyeroll/eyeroll3.png"
+    0.1
+    "eyeroll/eyeroll4.png"
+    0.1
+    repeat
+
+image react happy:
+    "gratefulA/grateful1.png"
+    0.1 #this part defines how long to wait before next frame
+    "gratefulA/grateful2.png"
+    0.1
+    repeat
+
+image react flower:
+    "gratefulB/grateful1.png"
+    0.1 #this part defines how long to wait before next frame
+    "gratefulB/grateful2.png"
+    0.1
+    repeat
+
+image react laugh:
+    "hahah/laugh1.png"
+    0.1 #this part defines how long to wait before next frame
+    "hahaha/laugh2.png"
+    0.1
+    repeat
+
+image react sad:
+    "sad/sad1.png"
+    0.1 #this part defines how long to wait before next frame
+    "sad/sad2.png"
+    0.1
+    repeat
 
 # The game starts here.
 
@@ -42,7 +109,6 @@ label start:
     "Content warning: transphobia, mention of drugging drinks."
 
     jump intro
-    #jump epilogue
 
 
 label intro:
@@ -75,9 +141,11 @@ label intro:
 
     a "Ah, you know me, a little pain isn't going to keep me down..."
 
-    "*Witch react: Eye roll"
+    show react eyeroll at witch_shop_react
 
     w "Yes, well..."
+
+    hide react
 
     w "The usual then?"
 
@@ -89,15 +157,15 @@ label intro:
 
     a "Not surprised. I mean, my creative process relies mostly on them."
 
-    "*A small crate labeled 'Share-A-Dream' with a colourful logo appears on the counter."
-
     w "Here you are, one crate of Share-A-Dream. What else can I do for you today, then?"
 
     a "It's a bit... private."
 
-    "*Witch react: Eye roll"
+    show react eyeroll at witch_shop_react
 
     w "Honestly, Andreas, I'm pretty sure I've heard it all before. I mean, some people even come in there trying to trade their firstborn..."
+
+    hide react
 
     a "Right, right, I guess my request isn't that weird. It's definitively not illegal, at least."
 
@@ -111,9 +179,11 @@ label intro:
 
     a "Yes, well, I was wondering if you could make a spell, or an amulet or something, to turn him back into a girl."
 
-    "*Witch react: Angry/furious"
+    show react angry at witch_shop_react
 
     w "..."
+
+    hide react
 
     a "No, no, don't look at me like that, I know he's a boy, it's not about me not accepting that!"
 
@@ -133,9 +203,11 @@ label intro:
 
     a "I don't know what hit me the hardest, the street harassment or the constant reminders that I was {b}different{/b} by well-meaning friends and family..."
 
-    "*Andreas react: Sad"
+    show react sad at andreas_react
 
     a "I'm not saying it wasn't worth it, I mean, I damned well loved each of them, I wouldn't have dealt with the homophobia otherwise!"
+
+    hide react
 
     a "But I'm still glad that the person I ended up marrying and building a life with is a woman because it makes things so much easier, socially speaking."
 
@@ -143,19 +215,23 @@ label intro:
 
     w "And your plan, to achieve that, is to change who he is, rather than support him and fight for his right to exist?"
 
-    "*Witch react: Angry/furious"
+    show react angry at witch_shop_react
 
     a "That's not... I'm supporting him!! I know how much easier my life would have been if I had been straight!"
 
     w "I can't even... Okay, I'll say this once and then you're leaving."
 
-    "*Witch react: Angry/furious"
-
     w "Set your head straight and check your queerphobia before you set foot here again!"
 
     w "Now get the hell out of my shop..."
 
-    "+Andreas react: Sad"
+    hide react
+
+    show react sad at andreas_react
+
+    pause 1
+
+    hide react
 
     hide andreas
     with moveoutright
@@ -200,9 +276,7 @@ label first_monologue:
 
     w "Gouge a couple of eyeballs out..."
 
-    "*Heavy sigh"
-
-    w ""
+    w "..."
 
     w "Like I'd ever do that... I'd probably sprain a wing or something..."
 
@@ -273,17 +347,23 @@ label friendly_argument:
     stop music
     play music friendtone fadein 7.0
 
-    "*Maddie react: Grateful"
+    show react happy at maddie_react
 
     m "So, I'm here, what do you need my help with?"
 
+    hide react
+
     w "What, not even an 'How're you doing, darling'? I'm hurt, Maddie, really hurt!"
 
-    "*Witch react: Laughing"
+    show react laugh at witch_shop_react
 
-    "*Maddie react: Eye roll"
+    pause 1
+
+    show react eyeroll at maddie_react
 
     m "Right, how have you been doing, {i}darling{/i}, in the last hour since we chatted on the phone?"
+
+    hide react
 
     w "Just peachy, thank you! What about you?"
 
@@ -303,15 +383,19 @@ label friendly_argument:
 
     w "Yeah, no, not that kind of distribution! For that one, we have to get a lot closer to our... marks..."
 
-    "*Maddie react: Eye roll"
+    show react eyeroll at maddie_react
 
     m "Drop the mystery, W., you're not making any sense."
 
+    hide react
+
     w "And you're no fun!"
 
-    "*Witch react: Angry"
+    show react angry at witch_shop_react
 
     w "But okay, I guess I should explain properly!"
+
+    hide react
 
     m "Thank you!"
 
@@ -319,9 +403,11 @@ label friendly_argument:
 
     w "Kiddo's trans, but his father'd rather he wasn't, all for his son's happiness of course, so he asked me to make a potion to change their gender {i}back{/i}."
 
-    "*Maddie react: Angry"
+    show react angry at maddie_react
 
     w "Yeah, I was pretty furious myself..."
+
+    hide react
 
     w "But anyway, it got me thinking... How would all those pricks like it if their gender didn't correspond to their expectations or society's expectations anymore?"
 
@@ -353,11 +439,13 @@ label friendly_argument:
 
     m "Do I... Of course I object! There are so many things wrong with it, I don't even know where to start!"
 
-    "*Maddie react: Angry"
+    show react angry at maddie_react
 
     m "First, I'm not drugging people's drinks! Not matter how asshole-y they are! It's, like, super violent, and illegal, and, and, {b}not okay{/b}!"
 
     m "Second, you don't even know that your 'marks', as you say, as transphobes. They could be random people who happen to live or work close by the Green Monkey and have no idea it's a famous anti-queer place."
+
+    hide react
 
     m "Like, being that oblivious is not good, sure, but it doesn't they deserve to be punished for it..."
 
@@ -365,9 +453,11 @@ label friendly_argument:
 
     m "Did you not hear my first point?"
 
-    "*Witch react: Angry"
+    show react angry at witch_shop_react
 
     w "Okay, okay, I won't involve you, I'll go take care of it on my own..."
+
+    hide react
 
     m "You really shouldn't... And that's my third point: are you doing this for revenge, or to make them empathise with us?"
 
@@ -383,9 +473,11 @@ label friendly_argument:
 
     w "But I was so pissed off with that guy!"
 
-    "*Maddie react: Eye roll"
+    show react eyeroll at maddie_react
 
     w "Well... Guess I should dump those potions down the drain, then..."
+
+    hide react
 
     w "It's probably best not to leave them lying around. Especially since they've got to be saturated in negative energies..."
 
@@ -405,19 +497,23 @@ label friendly_argument:
 
     m "I'm just sick of just permanently questionning if I'm not just cis and overly complicating things..."
 
+    show react sad at maddie_react
+
     w "Oh, Maddie!"
 
-    "*Maddie react: Crying"
+    hide react
 
     w "I can sure make you those potions if you think it could help. I can even make some with various degrees of {i}woman-ness{/i} At least that's the theory... And I can tie a lot of parameters to gender euphoria and dysphoria, if you want. Stuff like language and body parts and social perception."
 
-    "*Maddie react: Happy"
+    show react happy at maddie_react
 
     m "That'd be great! Can I come to the back with you so you can show me the options and everything?"
 
-    "*Witch react: Happy"
+    show react happy at witch_shop_react
 
     w "Sure, come on, let me just lock the front door and we can get brewing!"
+
+    hide react
 
     jump epilogue
 
@@ -434,8 +530,6 @@ label epilogue:
     show counter small
     with fade
 
-    "Music is playing in the background."
-
     w "{i}sigh{/i} Slow day..."
 
     play sound "audio/SFX_DoorOpen.wav"
@@ -449,17 +543,21 @@ label epilogue:
         yalign 0.53
     with moveinright
 
-    "*Witch react: Happy"
+    show react happy at witch_shop_react
 
     f "Hi, err, good afternoon."
+
+    hide react
 
     f "Hum, I hope I'm not interupting anything?"
 
     w "Seriously? I was so bored I was considering breaking out the duster..."
 
-    "*Witch react: Eye roll"
+    show react eyeroll at witch_shop_react
 
     w "So I'm all yours!! What can I do for you, friend?"
+
+    hide react
 
     f "Ah, that's nice... I'm Farah."
 
@@ -487,9 +585,11 @@ label epilogue:
 
     w "I don't openly advertise for it because I'm afraid people might misuse it, but I've been spreading the word about them for a couple of month through our community's gravepine. Makes me really happy to see new people coming in to ask for it!"
 
-    "*Farah react: Happy"
+    show react happy at farah_react
 
     f "Oh this is great!!"
+
+    hide react
 
     f "And I can ask for anything?"
 
@@ -497,15 +597,19 @@ label epilogue:
 
     f "That still sounds great!"
 
-    "*Farah react: Happy"
+    show react flower at farah_react
 
     f "So... How do I... Do I need to fill in an order form?"
 
+    hide react
+
     f "Or maybe you already have a waiting list, I don't wait to sound impatient!"
 
-    "*Witch react: Laughing"
+    show react laugh at witch_shop_react
 
     w "Nothing like that, love. No order form, no waiting list..."
+
+    hide react
 
     w "Just a chat around a cup of tea, so I can explain how it works and what options you have, and you can pick what would help you the most."
 
@@ -527,7 +631,9 @@ label epilogue:
 
     w "Sure isn't! Give me a sec, I'll grab the tea set and a couple of ottomans."
 
-    "*Farah react: Happy"
+    show react happy at farah_react
+
+    pause 1
 
 
     hide witch
