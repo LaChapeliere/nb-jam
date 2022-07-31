@@ -153,9 +153,11 @@ label intro:
 
     w "You are my best customer for those, you know..."
 
-    "*Andreas react: Laughing/joking/chuckle"
+    show react laugh at andreas_react
 
     a "Not surprised. I mean, my creative process relies mostly on them."
+
+    hide react
 
     w "Here you are, one crate of Share-A-Dream. What else can I do for you today, then?"
 
