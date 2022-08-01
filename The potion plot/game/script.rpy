@@ -122,8 +122,8 @@ label intro:
     show counter small
     with fade
 
-    play sound "audio/SFX_DoorOpen.wav"
-    queue sound "audio/SFX_DoorClose_Light.wav"
+    play sound "/audio/SFX_DoorOpen.wav"
+    queue sound "/audio/SFX_DoorClose_Light.wav"
     pause 0.6
 
     show andreas back:
@@ -238,8 +238,8 @@ label intro:
     hide andreas
     with moveoutright
 
-    play sound "audio/SFX_DoorOpen.wav"
-    queue sound "audio/SFX_DoorClose_Hard.wav"
+    play sound "/audio/SFX_DoorOpen.wav"
+    queue sound "/audio/SFX_DoorClose_Hard.wav"
     pause 0.6
 
     w "Asshole!"
@@ -335,8 +335,8 @@ label friendly_argument:
     show counter small
     with fade
 
-    play sound "audio/SFX_DoorOpen.wav"
-    queue sound "audio/SFX_DoorClose_Light.wav"
+    play sound "/audio/SFX_DoorOpen.wav"
+    queue sound "/audio/SFX_DoorClose_Light.wav"
     pause 0.6
 
     show maddie back:
@@ -533,8 +533,8 @@ label epilogue:
 
     w "{i}sigh{/i} Slow day..."
 
-    play sound "audio/SFX_DoorOpen.wav"
-    queue sound "audio/SFX_DoorClose_Light.wav"
+    play sound "/audio/SFX_DoorOpen.wav"
+    queue sound "/audio/SFX_DoorClose_Light.wav"
     pause 0.6
 
     w "Oh, a customer, welcome!"
